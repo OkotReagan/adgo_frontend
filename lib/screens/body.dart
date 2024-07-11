@@ -101,7 +101,7 @@ class _EmotionDetectorState extends State<EmotionDetector> {
       print("------------------ GETTING DATA FROM THE API ------------------");
 
       var response =
-          await Dio().get('https://emotionsdetection.onrender.com/api/items');
+          await Dio().get('https://adgo-server-6qk5.onrender.com/api/items');
 
       setState(() {
         posts = response.data;
